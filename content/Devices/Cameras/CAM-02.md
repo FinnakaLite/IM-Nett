@@ -1,7 +1,11 @@
-Location: #2IT1 
-Model: G3-Flex
-Recording: Records 24/7
+### Location: #2IT1 
 
-Purpose: This camera watches over the 2IT Classroom to ensure that no equipment is stolen. 
+**Model:** #G3-Flex
 
-Notes: The microphone on this camera IS active, it should be considered if it should be turned off.
+**Recording:** Records 24/7
+
+**Purpose:** This camera watches over the 2IT Classroom to ensure that no equipment is stolen. 
+
+**Connected to:** [[SW-02]]
+
+> [!note]The microphone on this camera IS active, it should be considered if it should be turned off.

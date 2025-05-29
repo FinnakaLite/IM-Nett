@@ -1,6 +1,9 @@
+---
+title: Home
+---
 ## Welcome to the documentation for the IM-TestNet!
 
-[!info] This documentation was last updated: 28 May 2025
+>[!info] This documentation was last updated: 28 May 2025
 
 ### Device Index:
 
