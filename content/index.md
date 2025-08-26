@@ -12,20 +12,20 @@ title: Home
 | Model:                      | Device ID: | Location: | Role:                                                       |
 | --------------------------- | ---------- | --------- | ----------------------------------------------------------- |
 | Unifi Switch Pro Max 16 POE | [[SW-01]]  | #Kitchen  | This is the core/distribution switch. With 1/2.5/10G Ports. |
-| US 48 PoE                   | [[SW-02]]  | #2IT1     | 2IT Room Switch with POE                                    |
-| US 24 PoE                   | [[SW-03]]  | #1IM3     | Switch for 1IM3 room                                        |
+| US 48 PoE                   | [[SW-02]]  | #2IT1     | 2IT1 Room Switch with POE                                   |
+| US 24 PoE                   | [[SW-03]]  | #1IM1     | Switch for 1IM1 room                                        |
 | US 24                       | [[SW-04]]  | #1IM2     | Switch for 1IM2 room                                        |
-| US 24 PoE                   | [[SW-05]]  | #1IM1     | Switch for 1IM1 room                                        |
+| US 24 PoE                   | [[SW-05]]  | #2IT2     | Switch for 2IT2 room                                        |
 | US 24 PoE                   | [[SW-06]]  | #TV-Rack  | Switch for TV-Studio Rack                                   |
 
 ### Access Points:
-| Model:   | Device ID: | Location: | Role:                             |
-| -------- | ---------- | --------- | --------------------------------- |
-| UAC-Lite | [[AP-01]]  | #Kitchen  | AP in the IM Kitchen              |
-| UAC-Lite | [[AP-02]]  | #1IM3     | AP in 1IM3                        |
-| UAC-Lite | [[AP-03]]  | #2IT1     | AP in 2IT1                        |
-| UAC-Lite | [[AP-04]]  | #1IM1     | AP in the 1IM1/2IT2 Classroom     |
-| ~~UAC-Lite~~ | ~~[[AP-05]]~~  | ~~Misc~~      | ~~AP in the hallway, next to V2-104~~ |
+| Model:       | Device ID:    | Location: | Role:                                 |
+| ------------ | ------------- | --------- | ------------------------------------- |
+| UAC-Lite     | [[AP-01]]     | #Kitchen  | AP in the IM Kitchen                  |
+| UAC-Lite     | [[AP-02]]     | #1IM1     | AP in 1IM1                            |
+| UAC-Lite     | [[AP-03]]     | #2IT1     | AP in 2IT1                            |
+| UAC-Lite     | [[AP-04]]     | #2IT2     | AP in 2IT2 Classroom                  |
+
 
 ### Cameras:
 | Model:    | Device ID: | Location:  | Role:                                |

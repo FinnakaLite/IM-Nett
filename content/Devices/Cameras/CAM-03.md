@@ -8,4 +8,4 @@
 
 **Connected to:** [[SW-01]]
 
-> [!note] Does **not** look into the 1IM3 Classroom, the camera is positioned to not do this.
+> [!note] Does **not** look into the 1IM1 Classroom, the camera is positioned to not do this.
