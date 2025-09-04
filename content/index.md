@@ -9,14 +9,15 @@ title: Home
 
 ### Switches:
 
-| Model:                      | Device ID: | Location: | Role:                                                       |
-| --------------------------- | ---------- | --------- | ----------------------------------------------------------- |
-| Unifi Switch Pro Max 16 POE | [[SW-01]]  | #Kitchen  | This is the core/distribution switch. With 1/2.5/10G Ports. |
-| US 48 PoE                   | [[SW-02]]  | #2IT1     | 2IT1 Room Switch with POE                                   |
-| US 24 PoE                   | [[SW-03]]  | #1IM1     | Switch for 1IM1 room                                        |
-| US 24                       | [[SW-04]]  | #1IM2     | Switch for 1IM2 room                                        |
-| US 24 PoE                   | [[SW-05]]  | #2IT2     | Switch for 2IT2 room                                        |
-| US 24 PoE                   | [[SW-06]]  | #TV-Rack  | Switch for TV-Studio Rack                                   |
+| Model:                      | Device ID: | Location:  | Role:                                                       |
+| --------------------------- | ---------- | ---------- | ----------------------------------------------------------- |
+| Unifi Switch Pro Max 16 POE | [[SW-01]]  | #Kitchen   | This is the core/distribution switch. With 1/2.5/10G Ports. |
+| US 48 PoE                   | [[SW-02]]  | #2IT1      | 2IT1 Room Switch with POE                                   |
+| US 24 PoE                   | [[SW-03]]  | #1IM1      | Switch for 1IM1 room                                        |
+| US 24                       | [[SW-04]]  | #1IM2      | Switch for 1IM2 room                                        |
+| US 24 PoE                   | [[SW-05]]  | #2IT2      | Switch for 2IT2 room                                        |
+| US 24                       | [[SW-06]]  | #TV-Rack   | Switch for TV-Studio Rack                                   |
+| US 24 PoE                   | [[SW-07]]  | #Fordeling | Switch in Fordelingsskap                                    |
 
 ### Access Points:
 | Model:       | Device ID:    | Location: | Role:                                 |
