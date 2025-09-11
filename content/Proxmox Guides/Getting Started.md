@@ -19,7 +19,7 @@ When logging in you will see the following in the corner of your screen:
 7. Start the VM, then click on the "Console" button next to the start button. This will open a console window
 8. Click Enter in the Console to activate it
 9. Run the command `nano /etc/config/network` and use your arrow keys to scroll down until you find `config interface 'wan'`
-10. Find the line `option ipaddr '172.20.0.199'`, replace the last two digits with the VM ID you were told to write down earlier. 
+10. Find the line `option ipaddr '172.20.0.199'`, replace the last three digits with the VM ID you were told to write down earlier. 
 11. Press ctrl + x , press Y, then enter to save the file
 12. Run the `reboot` command.
 #### Connecting to your Private Network:
