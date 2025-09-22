@@ -3,7 +3,7 @@ title: Home
 ---
 # Welcome to the documentation for the IM-TestNet!
 
->[!info] This documentation was last updated: 28 May 2025
+>[!info] This documentation was last updated: 18 Sep 2025
 
 ## Device Index:
 
@@ -33,17 +33,4 @@ title: Home
 | G3-Flex   | [[CAM-01]] | #Kitchen   | Camera overlooking the kitchen       |
 | G3-Flex   | [[CAM-02]] | #2IT1      | Camera overlooking the 2IT Classroom |
 | G3-Bullet | [[CAM-03]] | #IM-Felles | Camera overlooking IM Felles Area    |
-
-### Gateway:
-#### Location: #Kitchen 
->Model: Unifi Cloud Gateway Fiber
-
-###### Ports in use:
-WAN: 10G Ethernet
-
-LAN: 10G SFP+
-
-##### Ports not in use:
-WAN: 10G SFP+
-
-LAN: 4x 2.5G Ethernet
+## For other devices, please check the Misc folder!
