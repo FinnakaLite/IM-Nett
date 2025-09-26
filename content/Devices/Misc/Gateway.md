@@ -2,11 +2,6 @@
 >Model: Unifi Cloud Gateway Fiber
 
 ###### Ports in use:
-WAN: 10G Ethernet
+WAN: 10G SFP+ - Fiber cable going to fylkesnett via E1-6 (check fiber routing table)
 
-LAN: 10G SFP+
-
-##### Ports not in use:
-WAN: 10G SFP+
-
-LAN: 4x 2.5G Ethernet
+LAN: 10G SFP+ - DAC Cable going to [[SW-01]] 
