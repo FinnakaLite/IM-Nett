@@ -22,8 +22,20 @@ When logging in you will see the following in the corner of your screen:
 10. Find the line `option ipaddr '172.20.0.199'`, replace the last three digits with the VM ID you were told to write down earlier. 
 11. Press ctrl + x , press Y, then enter to save the file
 12. Run the `reboot` command.
-#### Connecting to your Private Network:
-1. Open the OpenConnect client that you downloaded earlier, and connect to 172.20.0.xxx:4443 (replace the last digits with your VM ID)
-2. When asked for credentials, the username is root and the password is root
-3. You should then be connected to your private network!
-How does it work?: Basically, when you have the VPN on, you are inside your private network, if you create for example a windows server machine, you will only be able to remote into it when the OpenConnect VPN is connected. This way you have a completely safe and isolated network that you only connect to when it needs to be used. 
+## Creating the VPN server:
+#### You need to edit the VPN server in a way that makes it possible for you and only you to VPN into the server.
+1. First open the WAN IP address of your router in the browser, in my case 172.20.0.199
+2. Log-in with the username and password "root"
+3. Go to Network -> Interfaces
+4. Find the WireGuard interface and click Edit.![[Pasted image 20251015180831.png]]
+5. Under the Peers tab find "Peer 1" and click Edit
+6. Click the generate new key pair button ![[Pasted image 20251015181358.png]]
+7. Scroll down and click the green Save button
+8. Press the Edit button AGAIN, and this time scroll down until you find the "Generate configuration" button
+9. Copy the configuration text like so ![[Pasted image 20251015181550.png]]
+### Importing the VPN config:
+1. Open the WireGuard application on your system
+2. Press "Add Tunnel" and select "From empty file" ![[Pasted image 20251015181907.png]]
+3. Highlight everything and paste what you have copied into the text box and click Save ![[Pasted image 20251015182049.png]]
+4. You can now activate the VPN and connect to your virtual router. If this doesn't work then you need to try restarting your virtual router.
+
