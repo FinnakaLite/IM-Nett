@@ -4,7 +4,7 @@ To log in to Proxmox you'll need your IM-ID and a computer connected to the IM n
 In your web browser open https://172.20.0.10:8006/, this is the control panel for Proxmox, I suggest bookmarking this web address as you will use it a lot. Now login using your IM-ID username and password. If you have forgotten your password please look at **xxinsert herexx** or speak to a teacher if that doesnt work.
 
 ### Creating your Private Network:
-Before we get started download and install the OpenConnect client here: [Download OpenConnect VPN for Windows](https://gui.openconnect-vpn.net/download/)
+Before starting please download the WireGuard client here: [Installation - WireGuard](https://www.wireguard.com/install/)
 
 Just like any other network, you need a router to do NAT. For this we have the openwrt-vpn template which you will copy. 
 
@@ -39,3 +39,5 @@ When logging in you will see the following in the corner of your screen:
 3. Highlight everything and paste what you have copied into the text box and click Save ![[Pasted image 20251015182049.png]]
 4. You can now activate the VPN and connect to your virtual router. If this doesn't work then you need to try restarting your virtual router.
 
+## Finishing up:
+Please make sure to change the password for your router, in the routers config page you will have a huge yellow banner on top reminding you to do this. Please comply. 
