@@ -6,11 +6,11 @@ In your web browser open https://172.20.0.10:8006/, this is the control panel fo
 ### Creating your Private Network:
 Before starting please download the WireGuard client here: [Installation - WireGuard](https://www.wireguard.com/install/)
 
-Just like any other network, you need a router to do NAT. For this we have the openwrt-vpn template which you will copy. 
+Just like any other network, you need a router to do NAT. For this we have the openwrt-router-wg template which you will copy. 
 
 When logging in you will see the following in the corner of your screen:
 ![[Screenshot 2025-08-06 at 10.23.33.png]]
-1. Right click on the "102 (openwrt-vpn) template" and click clone.
+1. Right click on the "102 (openwrt-router-wg) template" and click clone.
 2. You will be given a random and unique VM ID, write this down, as this will now be the ID for your private network. Fill out the rest of the options like below, and make sure you assign it to your resource pool.![[Screenshot 2025-08-06 at 10.25.55.png]]
 3. Click Clone
 4. Click on the new VM on the side bar (you can remove the "template" tag from the VM if you'd like)
@@ -33,10 +33,12 @@ When logging in you will see the following in the corner of your screen:
 7. Scroll down and click the green Save button
 8. Press the Edit button AGAIN, and this time scroll down until you find the "Generate configuration" button
 9. Copy the configuration text like so ![[Pasted image 20251015181550.png]]
+10. Press the green save button, and then press the "Save and Apply" button at the bottom of the interfaces page.
+11. Restart the WireGuard interface before continuing: ![[Pasted image 20251016091332.png]]
 ### Importing the VPN config:
 1. Open the WireGuard application on your system
 2. Press "Add Tunnel" and select "From empty file" ![[Pasted image 20251015181907.png]]
-3. Highlight everything and paste what you have copied into the text box and click Save ![[Pasted image 20251015182049.png]]
+3. Highlight everything and paste what you have copied into the text box and click Save:  ![[Pasted image 20251016090942.png]]
 4. You can now activate the VPN and connect to your virtual router. If this doesn't work then you need to try restarting your virtual router.
 
 ## Finishing up:
