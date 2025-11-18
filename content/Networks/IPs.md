@@ -10,3 +10,4 @@ Traffic flow between the static & dynamic network is permitted.
 | 172.20.0.11 | IM-Windows Server                                    |
 | 172.20.0.12 | IM-Ubuntu Server                                     |
 | 172.20.0.13 | Tailscale Router                                     |
+| 172.20.0.9  | Proxmox server2 High Performance                     |
